@@ -82,3 +82,10 @@ html {
     left: 35cm;
     cursor: pointer;
 }
+
+.facebook-icon { 
+    position: relative;
+    width: 1cm;
+    top: 7cm;
+    left: 32.5cm;
+}
