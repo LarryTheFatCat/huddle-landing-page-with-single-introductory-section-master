@@ -6,13 +6,14 @@ html {
     font-family: "Poppins", "Open Sans", "Arial", sans-serif;
 }
 
-.attribution { 
-    color: white;
+svg {
+    z-index: -9999;
 }
-.attribution a { 
+
+.title-content {
     color: white;
 }
 
-svg {
-    z-index: -9999;
+.description {
+    color: white;
 }
