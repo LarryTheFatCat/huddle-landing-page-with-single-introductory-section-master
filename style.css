@@ -1,6 +1,16 @@
+
+html {
+    background-color: hsl(257, 40%, 49%);
+    background-image: url( '/images/bg-desktop.svg' );
+}
+
 .attribution { 
-    font-size: 11px; text-align: center; 
+    color: white;
 }
 .attribution a { 
-    color: hsl(228, 45%, 44%); 
+    color: white;
+}
+
+svg {
+    z-index: -9999;
 }
