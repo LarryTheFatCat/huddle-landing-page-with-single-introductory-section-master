@@ -5,15 +5,40 @@ html {
     background-image: url( '/images/bg-desktop.svg' );
     font-family: "Poppins", "Open Sans", "Arial", sans-serif;
 }
-
-svg {
-    z-index: -9999;
-}
-
 .title-content {
     color: white;
 }
 
 .description {
-    color: white;
+    color: white
+}
+
+.btn-register {
+    background-color: white;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    width: 4cm;
+    height: 1.2cm;
+    font-size: 15px;
+    box-shadow: 1px 2px 5px black;
+    font-family: inherit;
+    color: hsl(257, 40%, 49%);
+    cursor: pointer;    
+    transition: all 200ms ease-out
+}
+
+.btn-register:is(:hover) {
+    transition-delay: 100ms;
+    background-color: white;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    width: 4.2cm;
+    height: 1.3cm;
+    font-size: 16px;
+    box-shadow: 2px 3px 7px black;
+    font-family: inherit;
+    color: hsl(257, 40%, 49%);
+    cursor: pointer;
 }
