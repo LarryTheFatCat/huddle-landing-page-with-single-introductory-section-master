@@ -7,6 +7,9 @@ html {
 }
 .title-content {
     color: white;
+    position: relative;
+    top: 5cm;
+    width: 10cm;
 }
 
 .description {
@@ -41,4 +44,9 @@ html {
     font-family: inherit;
     color: hsl(257, 40%, 49%);
     cursor: pointer;
+}
+
+.logo {
+    width: 5cm;
+    padding: 1cm;
 }
