@@ -15,7 +15,11 @@ html {
 }
 
 .description {
-    color: white
+    color: white;
+    position: relative;
+    left: 21.5cm;
+    top: 2cm;
+    width: 13cm;
 }
 
 .btn-register {
